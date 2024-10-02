@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border-radius: 0px 8px 8px 0px; */
 }
 
 body {
@@ -23,6 +22,8 @@ header {
   border-color: #9ad79b;
   border-width: 1px;
   border-style: dotted;
+  background-color: #000000;
+  z-index: 1000;
 }
 
 .content {
@@ -54,13 +55,13 @@ header {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 5px;
   width: 100%;
-  margin-top: 200px;
   padding: 20px;
   text-align: center;
   border-color: #9ad79b;
   border-width: 1px;
   border-style: dotted;
+  background-color: #000000;
 }
